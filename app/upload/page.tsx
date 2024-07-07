@@ -8,7 +8,7 @@ interface CloudinaryResult {
 
 const UploadPage = () => {
   const [publicId, setPublicId] = useState("");
-  console.log(publicId);
+
   return (
     <>
       {publicId && (
